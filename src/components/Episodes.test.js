@@ -29,7 +29,6 @@ test("image renders with episodes", () => {
     const { rerender } = render(<Episodes episodes={[]}/>);
 
     let episodes = screen.queryByTestId("episode")
-    // expect(episodes).toHaveLength(0);
     expect(episodes).toStrictEqual(null);
 
     rerender(<Episodes error="" episodes={mockEpisodes} />)

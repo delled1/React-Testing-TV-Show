@@ -88,13 +88,13 @@ const mockData = {
                 _links: {
                   self: {
                     href: "http://api.tvmaze.com/episodes/553946",
-                  },
-                }}]}
-              
-    }
-}
-
-                
+            },
+          }
+        }
+      ]
+    }    
+  }
+}    
 
 //Component renders correctly
 
